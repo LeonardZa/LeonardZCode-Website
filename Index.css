@@ -1,0 +1,161 @@
+
+/* Letter styles */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Didact+Gothic&family=Oswald&family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Didact Gothic', Sans-Serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+   background-color: #090909;
+}
+
+/* NavBar configuracion */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(33,33,33);
+  justify-content: space-between;
+  margin: 0px 0px 0px 0px;
+  border-bottom: 1px solid white;
+  padding: 25px 75px 25px 75px;
+}
+.logo {
+  align-items: left;
+}
+
+.logo img {
+  border-radius: 50%;
+  padding: 1.5px;
+  border: 1px solid white;
+  height: 50px;
+}
+#title-logo {
+  margin-right: 20px;
+  color: white;
+  font-family: Sans-Serif;
+}
+.nav-bar a{
+  list-style: none;
+  font-family: 'Arimo', Sans-Serif;
+  color: white;
+  transition: 1s;
+  text-decoration: none;
+  padding: 20px;
+}
+.nav-bar a:hover {
+  list-style: none;
+  font-family: 'Arimo', Sans-Serif;
+  text-decoration: none;
+  transition: 1s;
+  color: #9BA4B5;
+  padding: 20px;
+}
+
+.text-presentation {
+  padding: 25px;
+}
+.text-presentation .text-present {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  padding: 50px 50px 0px 50px;
+  font-family: 'Didact Gothic', Sans-Serif;
+}
+
+/* GitHub Menu visit */
+.div-github {
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: rgb(20,20,20);
+  border: 1px solid rgb(101,101,101);
+}
+.github-menu img {
+  height: 150px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.div-github, .github-menu h2 {
+  font-family: 'Didact Gothic', Sans-Serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 1s;
+  color: white;
+}
+.div-github, .github-menu h2:hover {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Didact Gothic', Sans-Serif;
+  color: rgb(139,139,139);
+  transition: 1s;
+}
+.div-github, .github-menu a {
+  color: white;
+  text-decoration: none;
+}
+.github-menu {
+  margin-top: 50px;
+  text-align: center;
+}
+.a-github {
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(17,17,17);
+  border-top: 1px solid rgb(101,101,101);
+}
+.a-github .url {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.a-github .url p{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: white;
+  border: 1px solid rgb(101,101,101);
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 40px;
+}
+.url #visit-url{
+  padding-bottom: 5px;
+  padding-right: 20px;
+  transition: 1s;
+  padding-left: 20px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 5px;
+  border: 1px solid rgb(58,58,58);
+  background-color: rgb(49,49,49);
+}
+.url #visit-url:hover{
+  transition: 1s;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  border: 1px solid rgb(58,58,58);
+  color: black;
+  background-color: white;
+}
+
+
+/* LNH Repository Config */
+.LNH-repository {
+  margin: 50px;
+  border-left: 3px solid;
+  border-image: linear-gradient(#000, rgb(101,223,220), rgb(175,223,101), #000 100%) 1;
+}
+.LNH-repository, .repository-presentation h2 {
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
